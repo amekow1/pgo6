@@ -6,6 +6,8 @@ public class Car extends Vehicle{
     this.milesDriven = milesDriven;
     this.fuelConsumed = fuelConsumed;
   }
+
+
   @Override
   public double calculateFuelEfficiency() {
     if(fuelConsumed==0){
